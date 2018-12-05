@@ -1,0 +1,102 @@
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-family: arial;
+	color:white;
+}
+
+ul{
+	list-style: none;
+	display:block;
+}
+
+ul li{
+	border-right:1px solid #32446e;
+	float:left;
+	box-shadow: inset 0px 0px 0px #272822;
+	-webkit-transition: box-shadow .1s;
+	
+background: #1f2a8c;
+background: -moz-linear-gradient(top,  #1f2a8c 68%, #161d62 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(68%,#1f2a8c), color-stop(100%,#161d62));
+background: -webkit-linear-gradient(top,  #1f2a8c 68%,#161d62 100%);
+background: -o-linear-gradient(top,  #1f2a8c 68%,#161d62 100%); 
+background: -ms-linear-gradient(top,  #1f2a8c 68%,#161d62 100%); 
+background: linear-gradient(to bottom,  #1f2a8c 68%,#161d62 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f2a8c', endColorstr='#161d62',GradientType=0 );
+
+}
+
+
+ul li:hover{
+	box-shadow: inset 0px 0px 25px #fff;
+}
+
+div.general{
+	padding:15px 97px;
+    width: 100%;
+}
+
+
+div.menu{
+	display: inline-block;
+	width:12px;
+	height:12px;
+	margin-right: 5px;
+}
+
+div#uno{
+	background-image: url(../menu_icon.png);
+	background-position:-26px 0px;
+}
+
+div#dos{
+	background-image: url(../menu_icon.png);
+	background-position:-13px 0px;
+}
+
+div#tres{
+	background-image: url(../menu_icon.png);
+	background-position:-52px 0px;
+}
+
+div#cuatro{
+	background-image: url(../menu_icon.png);
+	background-position:-39px 0px;
+}
+
+div#cinco{
+	background-image: url(../menu_icon.png);
+	background-position:0px 0px;
+}
+
+div#seis{
+	background-image: url(../menu_icon.png);
+	background-position:-65px 0px;
+}
+
+input{
+	padding-left:.8em;
+	border-radius:9px;
+	height:18px;
+	color:black;
+	width:120px; 
+	-webkit-transition:width 0.4s;
+}
+
+input:focus{
+	outline: none;
+	width:160px;
+}
+
+li#first{
+	border-radius:5px 0px 0px 5px;
+}
+
+li#last{
+	border-radius:0px 5px 5px 0px;
+}
+
+.contenedor{
+    width: 100%;
